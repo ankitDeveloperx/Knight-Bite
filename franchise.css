@@ -1,0 +1,351 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+
+ /* Designing Navigation bar  */
+
+ nav ul{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 40px 70px;
+   /* border: 1px solid black; */
+   color: white;
+   height: 30px;
+ }
+
+ nav .nav-container{
+   display: flex;
+   justify-content: right;
+   align-items: center;
+   gap: 38px;
+ }
+
+
+ nav .header{
+   background-color: rgba(0, 0, 0, 0.151);
+ }
+
+ 
+ nav a{
+   text-decoration: none;
+   color: white;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 18px;
+   font-weight: 500;
+ }
+
+ nav li{
+   list-style-type: none;
+ }
+ 
+ .logo img{
+   height: 85px;
+   width: 200px;
+ }
+
+ nav{
+   position: fixed;
+   width: 100%;
+   top: 0px;
+ }
+
+ nav a:hover{
+   color: rgb(199, 123, 244);
+ }
+
+
+/* .main
+{
+    background: url(./Franchise_with_Knight_Bite\(480p\).mp4);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    
+}
+.enjoy
+{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.229);
+    color: white;
+    height: 90px;
+    position: fixed;
+    width: 100vw;
+    flex-wrap: wrap;
+} */
+
+
+/* #h1
+{   
+    font-size: 20px;
+    padding-left: 150px;
+    padding-top: 30px;
+    padding-right: 400px;
+}
+
+.container 
+{
+    
+    display: grid;
+    grid-template-columns: 100px 80px 80px 80px; 
+    color:red;
+    font-size: 19px;
+    padding-top: 30px;
+    padding-right: 150px;
+}
+.container a
+{
+    text-decoration: none;
+    color: grey;
+
+}
+.container a:hover
+{
+    color: white;
+}
+.message img
+{
+    height: 70px;
+    width: 70px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+} */
+/* video */
+.container1
+{
+   
+    height: 118vh;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+    /* border: 5px solid black; */
+}
+
+
+
+.background-clip{
+    position: absolute;
+    height: 125vh;
+    width: 100%;
+    z-index: -1;
+}
+
+.container1-header h1
+{
+    font-family: cursive;
+    font-size: 70px;
+    color: white;
+}
+.container1-header h3
+{
+    font-family: cursive;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+}
+.container1-header button
+{
+    font-family: cursive;
+    background-color: #FF5672;
+    border-radius: 20px;
+    border: none;
+    padding: 10px 30px 10px;
+    text-align: center;
+    margin-left: 380px;
+    margin-top: 40px;
+}
+.container1-header button:hover
+{
+    cursor: pointer;
+}
+.container1-sceond a
+{
+    display: flex;
+    justify-content: center;
+    color: white;
+    margin-top: 20px;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+/* container2 */
+.container2
+{
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+
+.container2 h1
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 35px;
+}
+
+.container2 p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: rgba(0, 0, 0, 0.753);
+    text-shadow: 0px 0px 1px white;
+}
+
+.line
+{
+    width: 80%;
+    height: 2px;
+    background-color: #C77BF4;
+    margin: auto;
+    margin-top: 70px;
+}
+
+/* container3 */
+.container3
+{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    font-family: sans-serif;
+    margin-top: 20px;
+    
+   
+}
+
+.container3 h1{
+    margin-bottom: 50px;
+}
+.container3-box
+{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    justify-content: center;
+    column-gap: 100px;
+
+}
+.container3-box img
+{
+   height: 70px;
+   width: 70px;
+   padding: 20px 0px 20px;
+}
+
+.container3-box p
+{
+  
+   padding: 30px 0px 30px;
+}
+
+
+
+
+/* container4 */
+.container4
+{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 50px ;
+}
+
+.container4 h1,p{
+    margin-bottom: 15px;
+}
+
+.container4 img
+{
+  display: block;
+  margin: auto;
+  height: 600px;
+  width: 800px;
+}
+
+#submit-btn2
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(255, 86, 114);
+    border-radius: 50px;
+    border: none;
+    padding: 10px 35px 10px;
+    text-align: center;
+    margin-top: 35px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+   
+}
+
+#submit-btn2:hover{
+    background-color: #811124;
+    color: white;
+}
+/* container5 */
+.container5
+{
+    height: 40%;
+    width: 100%;
+    text-align: center;
+    
+}
+.container5 img
+{
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    display: flex;
+    padding-right: 20px;
+}
+.container5-elem
+{
+   display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.container5-elem div
+{
+   display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    
+}
+.container5 h1
+{
+    padding-top: 30px;
+    
+}
+
+.copyright {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(45deg  , rgb(244, 123, 228) , rgb(165, 13, 56));
+    font-size: 15px;
+    height: 50px;
+    width: 100%;
+    color: white;
+    font-family: sans-serif;
+    margin-top: 50px;
+  }
+
+  #submit-btn:hover{
+    background-color: #811124;
+    color: white;
+  }
