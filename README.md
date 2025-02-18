@@ -10,6 +10,6 @@ This is a front-end clone of the Knight Bite website, built entirely using HTML 
 ✅ Call-to-Action (CTA) Buttons – Links to the official order page and mobile apps.
 ✅ Footer Section – Contains contact details, social media links, and location info.
 
-#Tech Stack
+# Tech Stack
 HTML – Structuring the web pages.
 CSS – Styling and responsiveness.
